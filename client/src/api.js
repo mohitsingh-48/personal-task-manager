@@ -1,4 +1,4 @@
-const BASE = "http://localhost:5000/tasks";
+const BASE = import.meta.env.VITE_API_URL || "http://localhost:5000/tasks";
 
 export const getTasks = (search = "") =>
   fetch(`${BASE}${search ? `?search=${encodeURIComponent(search)}` : ""}`).then((r) => r.json());
