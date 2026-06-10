@@ -153,3 +153,14 @@ Go to **http://localhost:5173** in your browser.
 2. The backend reads and writes tasks to `server/data/tasks.json` no database setup needed
 3. Every action (add, edit, delete, toggle) immediately updates the file so your tasks are saved even if you restart the server
 4. Overdue detection happens on the frontend any task with a due date in the past that isn't completed gets highlighted automatically
+
+---
+
+## 🚀 Live Demo
+
+**[https://personal-task-manager-inky.vercel.app](https://personal-task-manager-inky.vercel.app)**
+
+| Service | Platform | URL |
+|---------|----------|-----|
+| Frontend | Vercel | https://personal-task-manager-inky.vercel.app |
+| Backend | Render | https://personal-task-manager-dhqr.onrender.com |
