@@ -2,11 +2,11 @@
 
 ## How I Built This
 
-Before writing any code, I asked **ChatGPT** to help me plan out the folder structure and figure out what technologies to use. That gave me a solid starting point — knowing I'd need a Node.js + Express backend, a React frontend, and how to organize the files.
+Before writing any code, I asked **ChatGPT** to help me plan out the folder structure and figure out what technologies to use. That gave me a solid starting point knowing I'd need a Node.js + Express backend, a React frontend, and how to organize the files.
 
 From there, I watched a few **YouTube videos** to get an idea of what the end product should look like and how full-stack apps like this are generally built. That helped me understand the flow between frontend and backend before I started coding.
 
-Once I started building, whenever I got stuck on something — like wiring up the API calls, handling the overdue logic, or fixing a Node.js version issue — I used **Amazon Q in VS Code** to help me work through it and keep moving forward.
+Once I started building, whenever I got stuck on something like wiring up the API calls, handling the overdue logic, or fixing a Node.js version issue  I used **Amazon Q in VS Code** to help me work through it and keep moving forward.
 
 The README you are reading right now was also written with the help of **ChatGPT**.
 
@@ -14,7 +14,7 @@ The README you are reading right now was also written with the help of **ChatGPT
 
 ## What It Does
 
-A full-stack personal task manager where you can create, manage, and track your tasks — all saved to a local JSON file so your data persists between sessions.
+A full-stack personal task manager where you can create, manage, and track your tasks all saved to a local JSON file so your data persists between sessions.
 
 ---
 
@@ -150,6 +150,6 @@ Go to **http://localhost:5173** in your browser.
 ## How It Works
 
 1. The React frontend runs in your browser and talks to the Express backend via fetch calls defined in `api.js`
-2. The backend reads and writes tasks to `server/data/tasks.json` — no database setup needed
+2. The backend reads and writes tasks to `server/data/tasks.json` no database setup needed
 3. Every action (add, edit, delete, toggle) immediately updates the file so your tasks are saved even if you restart the server
-4. Overdue detection happens on the frontend — any task with a due date in the past that isn't completed gets highlighted automatically
+4. Overdue detection happens on the frontend any task with a due date in the past that isn't completed gets highlighted automatically
